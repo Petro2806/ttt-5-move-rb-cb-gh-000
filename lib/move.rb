@@ -10,5 +10,6 @@ def input_to_index(ind)
 end
 def move(board,ind,turn)
   board[ind]="XO"[turn%2]
+  return board
 end
 # code your input_to_index and move method here!
