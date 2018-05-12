@@ -3,12 +3,12 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-turn=0
+
 board=[]
 9.times{board<<" "}
 9.times{
 ind1=gets.strip
 ind=input_to_index(ind1)
-board=move(board,ind,turn)
+board=move(board,ind)
 turn=turn+1
 }
