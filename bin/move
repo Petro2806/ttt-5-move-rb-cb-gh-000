@@ -7,5 +7,6 @@ turn=0
 9.times{
 ind1=gets.strip
 ind=input_to_index(ind1)
-
+board=move(board,ind,turn)
+turn=turn+1
 }
