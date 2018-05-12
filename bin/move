@@ -1,4 +1,4 @@
-#!/usr/bin/move ruby
+#!/user/bin/move ruby
 
 require_relative '../lib/move.rb'
 
