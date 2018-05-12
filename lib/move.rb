@@ -8,4 +8,7 @@ end
 def input_to_index(ind)
   return ind.to_i-1
 end
+def move(board,ind,turn)
+  board[ind]="XO"[turn%2]
+end
 # code your input_to_index and move method here!
