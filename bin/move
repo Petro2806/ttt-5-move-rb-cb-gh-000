@@ -8,6 +8,7 @@ board=[]
 9.times{board<<" "}
 
 9.times{
+display_board(board)
 ind1=gets.strip
 ind=input_to_index(ind1)
 board=move(board,ind)
