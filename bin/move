@@ -4,8 +4,8 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 
-board=[]
-9.times{board<<" "}
+board=[" "]
+8.times{board<<" "}
 
 9.times{
 display_board(board)
